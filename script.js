@@ -40,3 +40,14 @@ for(var i=0; i<tab.length; i++)
 {
     document.write(tab[i] + " ");
 }
+
+var nick = prompt("Please enter your name");
+var token = 0;
+var nick2 = nick;
+
+while(token < nick.length)
+{
+    nick2 = nick2 + "a";
+    token++;
+}
+document.write("<br>" + nick2);
