@@ -51,3 +51,13 @@ while(token < nick.length)
     token++;
 }
 document.write("<br>" + nick2);
+
+token = 0;
+nick2 = nick;
+do
+{
+    nick2 = nick2 + "x";
+    token++;
+}
+while(token < nick.length)
+document.write("<br>" + nick2);
