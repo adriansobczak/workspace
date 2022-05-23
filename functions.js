@@ -5,6 +5,8 @@ function randomNum()
 }
 var random1 = randomNum();
 var random2 = randomNum();
+class Secret {};
+var magicTrick = new Secret();
 
 //console.log(random1 + " " + random2);
 
@@ -44,6 +46,10 @@ else if (choice == "multiply")
 else if (choice == "divide")
 {
     alert(mathHelp.divide());
+}
+else if (choice == "dick")
+{
+    alert(magicTrick.magic());
 }
 else
 {
