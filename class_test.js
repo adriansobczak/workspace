@@ -1,9 +1,7 @@
-class Secret
+export class Secret
 {
-    constructor(){}
-
     magic()
     {
-        return "B=====D";
+        return ("B=====D");
     }
 }

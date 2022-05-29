@@ -1,3 +1,12 @@
+// import {Secret} from "class_test.js";
+// class Secret
+// {
+//     magic()
+//     {
+//         return ("B=====D");
+//     }
+// }
+// var secret = new Secret();
 function randomNum()
 {
     var randomNumber = Math.floor(Math.random() * 100 + 1);
@@ -5,10 +14,6 @@ function randomNum()
 }
 var random1 = randomNum();
 var random2 = randomNum();
-class Secret {};
-var magicTrick = new Secret();
-
-//console.log(random1 + " " + random2);
 
 var mathHelp =
 {
@@ -29,6 +34,7 @@ var mathHelp =
         return random1 / random2;
     }
 }
+
 var choice = prompt("You have this numbers: " + random1 + " and " + random2 + " Chose what do you do with this (add, subtract, multiply or divide).", "add");
 
 if (choice == "add")
@@ -49,7 +55,7 @@ else if (choice == "divide")
 }
 else if (choice == "dick")
 {
-    alert(magicTrick.magic());
+    alert(secret.magic());
 }
 else
 {
