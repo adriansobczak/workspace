@@ -1,4 +1,4 @@
-export class Secret
+export default class Secret
 {
     magic()
     {
